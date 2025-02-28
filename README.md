@@ -59,7 +59,7 @@ If you want to upload files to GitHub without using **GitHub Desktop** or **Git 
 3. Choose the files from your computer and upload them.
 
 ### **Step 4: Commit and Push Changes**
-1. Click the **Source Control (Git icon) 📌** in the left sidebar.
+1. Click the **Source Control (Git icon) 🔃** in the left sidebar.
 2. Type a commit message (e.g., "Added new files").
 3. Click **"Commit & Push"** to upload the files to GitHub.
 
@@ -95,7 +95,7 @@ GitHub Desktop이나 Git 명령어 없이도 **웹 브라우저에서 Drag & Dro
 1. 컴퓨터에서 업로드할 파일을 **드래그하여 업로드 창에 놓음**.
 2. 또는 **"Choose your files"** 버튼을 클릭하여 파일을 수동으로 선택할 수도 있다.
 
-### **4단계: 커밋하고 저장**
+### **4단계: 커밋하고 저장 (Codespaces -> github)**
 1. **커밋 메시지** 입력 (예: "새 파일 추가").
 2. **"Commit changes"** 버튼을 클릭하여 파일을 GitHub에 업로드한다.
 
@@ -133,8 +133,8 @@ GitHub Desktop이나 Git 명령어 없이도 **GitHub Codespaces(웹 기반 개�
 2. **"Upload..."** 을 선택한다.
 3. 업로드할 파일을 선택하여 업로드한다.
 
-### **4단계: 커밋하고 푸시**
-1. 왼쪽 사이드바에서 **소스 컨트롤(Git 아이콘) ** 을 클릭한다.
+### **4단계: 커밋하고 푸시 (Codespaces -> github)**
+1. 왼쪽 사이드바에서 **소스 컨트롤(Git 아이콘) 🔃** 을 클릭한다.
 2. **커밋 메시지** 를 입력합니다 (예: "새 파일 추가").
 3. **"Commit & Push"** 버튼을 클릭하여 파일을 GitHub에 업로드한다.
 
