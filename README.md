@@ -36,6 +36,12 @@ If you want to upload files to your GitHub repository without using **GitHub Des
 This method is the simplest way for beginners to upload files to GitHub without using additional software.
 
 ---
+# **Uploading Files to GitHub Using Codespaces**
+## *(Codespaces Method)*
+
+If you want to upload files to GitHub without using **GitHub Desktop** or **Git commands**, you can use **GitHub Codespaces**, a web-based development environment.
+
+---
 ## **Method: Uploading Files in GitHub Codespaces**
 ### **Step 1: Open Your Repository in Codespaces**
 1. Go to [GitHub](https://github.com/) and **log in**.
@@ -101,12 +107,6 @@ GitHub Desktop이나 Git 명령어 없이도 **웹 브라우저에서 Drag & Dro
 
 ---
 
-# **Uploading Files to GitHub Using Codespaces**
-## *(Codespaces Method)*
-
-If you want to upload files to GitHub without using **GitHub Desktop** or **Git commands**, you can use **GitHub Codespaces**, a web-based development environment.
-
----
 
 ---
 
