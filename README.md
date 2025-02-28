@@ -6,7 +6,7 @@ This is a web page for C language course
 # **Using GitHub with Multiple Users on a Shared Windows PC**
 ## *(English Version - GUI & Codespaces Method)*
 
-If multiple users share a Windows PC and want to upload files to their own GitHub accounts, using **GitHub Desktop** (GUI method) or **GitHub Codespaces** (web-based method) is the easiest way.
+If multiple users share a Windows PC and want to upload files to their own GitHub accounts, use **GitHub Desktop** (GUI method) or **GitHub Codespaces** (web-based method)
 
 ---
 
@@ -68,7 +68,7 @@ This method ensures that each user can upload files to their own GitHub reposito
 # **한 PC에서 여러 사용자가 각자의 GitHub 계정에 파일 업로드하는 방법**
 ## *(한글 버전 - GUI & Codespaces 방법)*
 
-Windows PC를 여러 명이 공유하면서 각자의 GitHub 계정에 파일을 업로드하려면 **GitHub Desktop** (GUI 방법) 또는 **GitHub Codespaces** (웹 기반 방법)을 사용하는 것이 가장 쉽습니다.
+Windows PC를 여러 명이 공유하면서 각자의 GitHub 계정에 파일을 업로드하려면 **GitHub Desktop** (GUI 방법) 또는 **GitHub Codespaces** (웹 기반 방법)을 사용
 
 ---
 
@@ -119,5 +119,3 @@ GitHub Codespaces를 사용하면 웹에서 직접 파일을 업로드할 수 �
 ### **공유 PC에서 사용자 전환 방법**
 - **GitHub Desktop 사용 시**: **"파일(File)" → "설정(Options)" → "계정(Accounts)"** 에서 로그인/로그아웃하여 계정을 변경.
 - **GitHub Codespaces 사용 시**: GitHub에서 로그아웃 후, 다른 계정으로 로그인하여 사용.
-
-위 방법을 사용하면 초보자도 쉽게 각자의 GitHub 계정에 파일을 업로드할 수 있습니다.
