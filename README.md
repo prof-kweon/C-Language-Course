@@ -1,7 +1,9 @@
 # C-Language-Course
 This is a web page for C language course
 
-![image](https://github.com/user-attachments/assets/17582929-9f9e-4b40-b829-185edc9bb9dc)
+## Kakao Talk
+![image](https://github.com/user-attachments/assets/67a29217-2f42-48d0-9ad3-e41ffa194579)
+
 
 # **Uploading Files to GitHub Without GitHub Desktop or Git Commands**
 ## *(From local PC - Drag & Drop Method)*
