@@ -2,7 +2,7 @@
 This is a web page for C language course
 
 ## Kakao Talk
-![image](https://github.com/user-attachments/assets/67a29217-2f42-48d0-9ad3-e41ffa194579)
+![image](https://github.com/user-attachments/assets/637bb98c-7d98-4e99-820b-be80c5b39d01)
 
 
 # **Uploading Files to GitHub Without GitHub Desktop or Git Commands**
