@@ -1,5 +1,5 @@
 # C-Programming Language
-This is a web page for C language course
+This is a page for C programming language course
 
 ### Professor: Kweon, Tae Deok  
    Email: tdkweon@wsu.ac.kr  
