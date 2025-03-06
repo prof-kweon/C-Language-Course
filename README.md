@@ -11,12 +11,11 @@ This is a web page for C language course
 
 
 ---
-# **Uploading Files to GitHub Without GitHub Desktop or Git Commands**
+# Weekly plans
+
+## [Week1: To Do list](LectureReference/Week1-ToDo.md)
 
 ---
-[How to use github] (LectureReference/how to use github.md)
 
----
-[Week1: To Do list](LectureReference/To Do.md)
+### [How to use github] (LectureReference/how to use github.md)
 
----
