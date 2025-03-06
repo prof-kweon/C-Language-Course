@@ -16,6 +16,6 @@ This is a web page for C language course
 ## [Week1: To Do list](LectureReference/Week1-ToDo.md)
 
 ---
-
-### [How to use github] (LectureReference/how to use github.md)
+# How to Guide
+## [How to use github] (LectureReference/Howto-github.md)
 
