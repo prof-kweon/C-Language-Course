@@ -17,5 +17,5 @@ This is a web page for C language course
 
 ---
 # How to Guide
-## [How to use github] (LectureReference/Howto-github.md)
+## [How to use github](LectureReference/Howto-github.md)
 
