@@ -8,3 +8,15 @@ This is a web page for C language course
 
 ## Kakao Talk
 ![image](https://github.com/user-attachments/assets/637bb98c-7d98-4e99-820b-be80c5b39d01)
+
+
+---
+# **Uploading Files to GitHub Without GitHub Desktop or Git Commands**
+
+---
+[How to use github] (LectureReference/how to use github.md)
+
+---
+[Week1: To Do list](LectureReference/To Do.md)
+
+---
