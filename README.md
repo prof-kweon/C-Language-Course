@@ -1,4 +1,4 @@
-# C-Language-Course
+# C-Programming Language
 This is a web page for C language course
 
 ### Professor: Kweon, Tae Deok  
