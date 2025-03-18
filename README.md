@@ -13,9 +13,9 @@ This is a page for C programming language course
 ---
 # Weekly plans
 
-## [Week1: To Do list](LectureReference/Week1-ToDo.md)
+## [Week1: To Do list](4.md/Week1-ToDo.md)
 
 ---
 # How to Guide
-## [How to use github](LectureReference/Howto-github.md)
+## [How to use github](4.md/Howto-github.md)
 
