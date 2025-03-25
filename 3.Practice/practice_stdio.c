@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+   
    printf("%10d\n", 123);  // Right-aligned, width 10
    printf("%-10d\n", 123); // Left-aligned, width 10
    printf("%.2f\n", 3.14159);  // Prints with 2 decimal places
@@ -12,9 +13,9 @@ int main() {
    printf("C:\\Program Files\\\n");
    printf("\"Hello\"");
 
-   int age = 25;
+   int num = 25;
    float pi = 3.1412345;
-   printf("Age: %d, PI: %.2f\n", age, pi);
+   printf("Number: %d, PI: %.2f\n", num, pi);
 
    int count = printf("12345\n");
    printf("\nCharacters: %d\n", count);
@@ -31,7 +32,7 @@ int main() {
 
    printf("---------------------------------------\n");
 
-   int age2;
+   int age;
    float height;
    printf("Enter your age and height:");
    scanf("%d %f", &age, &height);
