@@ -2,30 +2,55 @@
 
 int main(){
 
-    printf("%c%10d\n", '*', 456);  // Right-aligned, width 10
-    printf("%-10d%c\n", 123, '*'); // Left-aligned, width 10
-    printf("%.2f\n", 3.14159);  // Prints with 2 decimal places
-    printf("%05d\n", 42);  // Pads with zeros up to 5 digits
+   printf("%10d\n", 123);  // Right-aligned, width 10
+   printf("%-10d\n", 123); // Left-aligned, width 10
+   printf("%.2f\n", 3.14159);  // Prints with 2 decimal places
+   printf("%05d\n", 42);  // Pads with zeros up to 5 digits
 
-    printf("Hello\nworld\n");
-    printf("Hello\tworld\n");
-    printf("\\Hello\\world\n");
-    printf("\"Hello world\"\n");
+   printf("Hello\tWorld\n");
+   printf("Hello\nWorld\n");
+   printf("!!!");
+   printf("C:\\Program Files\\\n");
+   printf("\"Hello\"");
+
+   int age = 25;
+   float pi = 3.1412345;
+   printf("Age: %d, PI: %.2f\n", age, pi);
+
+   int count = printf("12345\n");
+   printf("\nCharacters: %d\n", count);
+
+   puts("Hello, World"); //automatically appends a newline (\n) at the end
 
 
-    int age = 25;
-    float pi = 3.14;
-    printf("Age: %d, PI: %.2f\n", age, pi);
+   putchar('A');
+   putchar('B');
+   putchar('C');
+   printf("====\n");
 
-    int count = printf("Hello");
-    printf("Characters printed: %d\n", count);
+   // ======================================
 
-    int count2 = printf("Hello\n");
-    printf("Characters printed: %d\n", count2);
+   printf("---------------------------------------\n");
+
+   int age2;
+   float height;
+   printf("Enter your age and height:");
+   scanf("%d %f", &age, &height);
+   printf("You are %d years old and %.2f meters tall.\n", age, height);
+
+   char ch;
+   printf("Enter a character: ");
+   ch = getchar();
+   printf("You entered: %c\n", ch);
 
 
-    /* puts */
-    
+   char name[50];
+   printf("Enter your name: ");
+   // fgets reads a whole line from the input (up to n-1 characters). 
+   // It includes spaces and stops at a newline (\n). 
+   // Adds a newline character (\n) if the user presses Enter. 
+   fgets(name, sizeof(name), stdin);
+   printf("Hello, %s", name);
 
     return 0;
 }
