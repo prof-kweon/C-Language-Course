@@ -51,6 +51,8 @@ int method1(){
     char gender;
     char introduction[100];
 
+    printf("==================== Method 1 (scanf: input seperately) ====================\n");
+
     printf("Enter age: ");
     scanf("%d", &age);
     getchar();  // Remove newline characters remaining in the input buffer
@@ -71,12 +73,13 @@ int method1(){
     scanf("%s", introduction);
     getchar();  // Remove newline characters remaining in the input buffer
 
-    printf("Age: %d, Height: %.2f, Name: %s, Gender:%c, Intoduction:%s\n\n", 
+    printf("[RESULT] Age: %d, Height: %.2f, Name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);
 
     return 0;
 }
 
+/****************************************************** */
 int method2(){
     int age;
     float height;    
@@ -84,15 +87,18 @@ int method2(){
     char gender;
     char introduction[100];
 
-    printf("Enter: age height name gender introduction =>");
+    printf("==================== Method 2 (scanf: input together) ====================\n");
+
+    printf("Enter: age height name gender introduction => ");
     scanf("%d %f %s %c %s", &age, &height, name, &gender, introduction);
     getchar();  // Remove newline characters remaining in the input buffer
 
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
+    printf("[RESULT] Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);    
     return 0;    
 }
 
+/****************************************************** */
 int method3(){
     char input[100];
     int age;
@@ -100,6 +106,8 @@ int method3(){
     char name[50];
     char gender;
     char introduction[100];
+
+    printf("==================== Method 3 (fgets: input seperately) ====================\n");
 
     printf("Enter age: ");
     fgets(input, sizeof(input), stdin);
@@ -126,19 +134,12 @@ int method3(){
     removeNewline(input); // Remove newline characters remaining in the input buffer
     strncpy(introduction, input, sizeof(introduction));
 
-    // Output the parsed values
-    printf("\nParsed Values:\n");
-    printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
-    printf("Name: %s\n", name);
-    printf("Gender: %c\n", gender);
-    printf("Introduction: %s\n", introduction);
-
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
+    printf("[RESULT] Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);        
     return 0;    
 }
 
+/****************************************************** */
 int method4(){
     char input[200];  
     int age;
@@ -147,26 +148,20 @@ int method4(){
     char gender;
     char introduction[100];
 
-    printf("Enter: age height name gender introduction =>");
+    printf("==================== Method 4 (fgets: input together & sscanf) ====================\n");
+    printf("Enter: age height name gender introduction => ");
     fgets(input, sizeof(input), stdin);
 
     // Parse the input
     // %[^X] => Reads input until it encounters the character X
     sscanf(input, "%d %f %49s %c %[^\n]", &age, &height, name, &gender, introduction);
 
-    // Output the parsed values
-    printf("\nParsed Values:\n");
-    printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
-    printf("Name: %s\n", name);
-    printf("Gender: %c\n", gender);
-    printf("Introduction: %s\n", introduction);
-
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
+    printf("[RESULT] Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);        
     return 0;    
 }
 
+/****************************************************** */
 int method5(){
     char input[200];
     int age;
@@ -175,6 +170,7 @@ int method5(){
     char gender;
     char introduction[100];
 
+    printf("==================== Method 5 (fget: input together & Tokenize) ====================\n");
     printf("Enter: age height name gender introduction => ");
     fgets(input, sizeof(input), stdin);
 
@@ -184,20 +180,12 @@ int method5(){
     // Call function to parse input
     parseInput(input, &age, &height, name, &gender, introduction);
 
-    // Print results
-    printf("\nParsed Values:\n");
-    printf("Age: %d\n", age);
-    printf("Height: %.2f\n", height);
-    printf("Name: %s\n", name);
-    printf("Gender: %c\n", gender);
-    printf("Introduction: %s\n", introduction);
-
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
+    printf("[RESULT] Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);  
     return 0;    
 }
 
-
+/****************************************************** */
 int main() {
     /* Get age, height, name, gender, introduction */
 
@@ -209,7 +197,7 @@ int main() {
     method3();
     method4();   
 
-    /* Tokenlize */
+    /* Tokenize */
     method5();    
     return 0;
 }
