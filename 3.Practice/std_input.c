@@ -56,7 +56,7 @@ int method1(){
     getchar();  // Remove newline characters remaining in the input buffer
 
     printf("Enter height: ");
-    scanf("%.2f", &height);
+    scanf("%f", &height); // This is not valid for scanf
     getchar();  // Remove newline characters remaining in the input buffer
 
     printf("Enter name: ");
@@ -85,7 +85,7 @@ int method2(){
     char introduction[100];
 
     printf("Enter: age height name gender introduction =>");
-    scanf("%d %.2f %s %c %s", &age, &height, name, &gender, introduction);
+    scanf("%d %f %s %c %s", &age, &height, name, &gender, introduction);
     getchar();  // Remove newline characters remaining in the input buffer
 
     printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s", 
@@ -152,7 +152,7 @@ int method4(){
 
     // Parse the input
     // %[^X] => Reads input until it encounters the character X
-    sscanf(input, "%d %.2f %49s %c %[^\n]", &age, &height, name, &gender, introduction);
+    sscanf(input, "%d %f %49s %c %[^\n]", &age, &height, name, &gender, introduction);
 
     // Output the parsed values
     printf("\nParsed Values:\n");
@@ -203,13 +203,13 @@ int main() {
 
     /* scanf */
     method1();
-    // method2();
+    method2();
 
     /* fgets */
-    // method3();
+    method3();
     method4();   
 
     /* Tokenlize */
-    // method5();    
+    method5();    
     return 0;
 }
