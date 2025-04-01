@@ -71,7 +71,7 @@ int method1(){
     scanf("%s", introduction);
     getchar();  // Remove newline characters remaining in the input buffer
 
-    printf("Age: %d, Height: %.2f, Name: %s, Gender:%c, Intoduction:%s", 
+    printf("Age: %d, Height: %.2f, Name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);
 
     return 0;
@@ -88,7 +88,7 @@ int method2(){
     scanf("%d %f %s %c %s", &age, &height, name, &gender, introduction);
     getchar();  // Remove newline characters remaining in the input buffer
 
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s", 
+    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);    
     return 0;    
 }
@@ -134,7 +134,7 @@ int method3(){
     printf("Gender: %c\n", gender);
     printf("Introduction: %s\n", introduction);
 
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s", 
+    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);        
     return 0;    
 }
@@ -162,7 +162,7 @@ int method4(){
     printf("Gender: %c\n", gender);
     printf("Introduction: %s\n", introduction);
 
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s", 
+    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);        
     return 0;    
 }
@@ -192,7 +192,7 @@ int method5(){
     printf("Gender: %c\n", gender);
     printf("Introduction: %s\n", introduction);
 
-    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s", 
+    printf("Age: %d, Height: %.2f, name: %s, Gender:%c, Intoduction:%s\n\n", 
         age, height, name, gender, introduction);  
     return 0;    
 }
