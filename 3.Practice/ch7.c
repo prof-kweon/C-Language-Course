@@ -52,10 +52,26 @@ int sum_for( void )
 }
 
 
+int main2( void )
+{
+    int x, y;
+    for (y = 1; y <= 5; y++)
+    {  
+         for (x = 0; x < y; x++)
+        {
+             printf ( "*" );
+         }
+         printf ("\n" ); // Executes whenever 
+     }
+
+      return 0;
+}
+
 int main( void ) 
 {
     // sum_while();
     // sum_user();
-    sum_for();
+    // sum_for();
+	main2();
     return 0;
 }
