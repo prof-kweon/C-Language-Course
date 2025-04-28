@@ -1,56 +1,52 @@
-// #include <stdio.h>
-
-// int max( int x , int y )
-// {
-//         if ( x > y )
-//                 return x ;
-//         else
-//                 return y ;
-// }
-// int main( void )
-// {
-
-//         int x, y, larger;
-
-//         printf ( " Enter two integers : " ) ;
-//         scanf( "%d %d" , &x, &y);
-
-//         larger = max(x, y);
-//         printf ( " The larger value is %d . \n" , larger);
-//         return 0;
-// }
-
-/**************************************************************/
-
-// #include <stdio.h>
-
-// int get_integer ()
-// {
-//         int value;
-//         printf ( " Enter an integer : " );
-//         scanf ( "%d" , &value);
-//         return value;
-// }
-
-// //
-// int add( int x , int y )
-// {
-//         return x + y ;
-// }
-
-// int main2( void )
-// {
-//         int x = get_integer ();
-//         int y = get_integer ();
-
-//         int sum = add(x, y);
-//         printf ( " The sum of the two numbers is %d . \n" , sum);
-//         return 0;
-// }
-
-/**************************************************************/
-
 #include <stdio.h>
+
+int max( int x , int y )
+{
+    if ( x > y )
+        return x ;
+    else
+        return y ;
+}
+int main1( void )
+{
+    int x, y, larger;
+
+    printf("Enter two integers : ");
+    scanf("%d %d", &x, &y);
+
+    larger = max(x, y);
+    printf("The larger value is %d.\n" , larger);
+    return 0;
+}
+
+/**************************************************************/
+
+int get_integer ()
+{
+        int value;
+        printf ( " Enter an integer : " );
+        scanf ( "%d" , &value);
+        return value;
+}
+
+//
+int add( int x , int y )
+{
+        return x + y ;
+}
+
+int main2( void )
+{
+        int x = get_integer ();
+        int y = get_integer ();
+
+        int sum = add(x, y);
+        printf ( " The sum of the two numbers is %d . \n" , sum);
+        return 0;
+}
+
+/**************************************************************/
+
 #include <math.h> 
 
 /* gcc ch9.c -o ch9 -lm */
@@ -108,7 +104,7 @@ void logBase10()
     }
 }
 
-int main( void )
+int main3( void )
 {
     while (1) {
         switch (menu()) {
@@ -130,3 +126,26 @@ int main( void )
         }
     }
 }
+
+/**************************************************************/
+// Calculate the 
+
+long factorial2(int n)
+{
+    printf("factorial(%d)\n", n );
+
+    if ( n <= 1) return 1;
+    else return n * factorial2(n - 1);
+}
+
+int main(void)
+{
+    int x = 0;
+    long f;
+
+    printf("Enter an integer :");
+    scanf("%d", &x);
+    printf("%d! is %ld.\n", x, factorial2(x));
+    return 0;
+}
+
