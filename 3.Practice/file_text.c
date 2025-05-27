@@ -53,6 +53,7 @@ int readFile() {
     fscanf(fp, "%d %d %d %f", &n1, &n2, &n3, &f);
 
     // print
+    printf("\n== readFile ==\n");
     printf("Characters: %c %c %c %c", ch1, ch2, ch3, ch4);
     printf("String: %s %s\n", str1, str2);
     printf("Integers: %d %d %d\n", n1, n2, n3);
@@ -62,8 +63,51 @@ int readFile() {
     return 0;
 }
 
+int readFileByOne( void )
+{
+    FILE * fp = NULL;
+    int c;
+    fp = fopen ( "sample.txt" , "r" );
+    if ( fp == NULL )
+        printf ( "file opening Failed \n");
+    else 
+        printf ( "file opening Success \n");
+
+    printf("\n== readFileByOne ==\n");
+    while ((c = fgetc ( fp )) != EOF ) {
+        putchar (c);
+    }
+
+    fclose ( fp );
+    return 0;
+}
+
+int readFileByLine( void )
+{
+    FILE * fp = NULL;
+    int SIZE = 100;
+    char line[SIZE]; 
+
+    fp = fopen ( "sample.txt" , "r" );
+    if ( fp == NULL )
+        printf ( "file opening Failed \n");
+    else 
+        printf ( "file opening Success \n");
+
+    printf("\n== readFileByLine ==\n");
+    while (fgets (line, SIZE, fp )) {
+        printf ("%s", line);
+    }
+
+    fclose ( fp );
+    return 0;
+}
+
+
 void main()
 {
     writeFile();
     readFile();
+    readFileByOne();
+    readFileByLine();
 }
